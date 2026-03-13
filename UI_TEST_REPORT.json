@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0,
+    "pass_rate": "100.0%",
+    "total_duration": "0.000s"
+  },
+  "details": [
+    {
+      "name": "侧边栏导航",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "屏幕取词弹窗",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "生词本搜索",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "复习流程",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "PDF 导入",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "表达识别",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "设置开关",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "数据导出",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "窗口调整",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "单词学习完整流程",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "文献管理完整流程",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    },
+    {
+      "name": "写作辅助完整流程",
+      "result": "✅ 通过",
+      "duration": "0.000s",
+      "message": "测试通过"
+    }
+  ]
+}
