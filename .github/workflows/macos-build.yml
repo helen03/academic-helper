@@ -44,6 +44,12 @@ jobs:
         python3 test_new_features.py
       continue-on-error: false
     
+    - name: Run LLM Service Tests
+      run: |
+        echo "🤖 Running LLM Service Tests..."
+        python3 test_llm_service.py
+      continue-on-error: false
+    
     - name: Upload Test Reports
       uses: actions/upload-artifact@v4
       if: always()
@@ -52,6 +58,7 @@ jobs:
         path: |
           UI_TEST_REPORT.json
           NEW_FEATURES_TEST_REPORT.json
+          LLM_SERVICE_TEST_REPORT.json
           TEST_COVERAGE_REPORT.md
 
   # ========== Swift 构建（macOS）==========

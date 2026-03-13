@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-03-13T12:58:23.685980",
+  "summary": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "pass_rate": "100.0%"
+  },
+  "details": [
+    {
+      "name": "提供商配置",
+      "result": "通过",
+      "message": "配置了 4 个 LLM 提供商"
+    },
+    {
+      "name": "请求参数",
+      "result": "通过",
+      "message": "参数结构正确"
+    },
+    {
+      "name": "消息格式",
+      "result": "通过",
+      "message": "消息格式正确"
+    },
+    {
+      "name": "缓存键生成",
+      "result": "通过",
+      "message": "缓存键生成正确"
+    },
+    {
+      "name": "缓存过期",
+      "result": "通过",
+      "message": "过期检测正确"
+    },
+    {
+      "name": "MD5哈希",
+      "result": "通过",
+      "message": "哈希计算正确"
+    },
+    {
+      "name": "频率限制",
+      "result": "通过",
+      "message": "限制检查正确"
+    },
+    {
+      "name": "等待时间",
+      "result": "通过",
+      "message": "时间计算正确"
+    },
+    {
+      "name": "指数退避",
+      "result": "通过",
+      "message": "退避计算正确"
+    },
+    {
+      "name": "错误分类",
+      "result": "通过",
+      "message": "分类正确"
+    },
+    {
+      "name": "文本理解",
+      "result": "通过",
+      "message": "理解功能正常"
+    },
+    {
+      "name": "写作风格",
+      "result": "通过",
+      "message": "风格选项正确"
+    },
+    {
+      "name": "学习计划",
+      "result": "通过",
+      "message": "计划结构正确"
+    },
+    {
+      "name": "日志条目",
+      "result": "通过",
+      "message": "条目结构正确"
+    },
+    {
+      "name": "统计计算",
+      "result": "通过",
+      "message": "统计正确"
+    }
+  ]
+}
