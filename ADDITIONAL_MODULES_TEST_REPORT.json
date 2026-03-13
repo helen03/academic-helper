@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-03-13T13:10:59.907464",
+  "summary": {
+    "total": 16,
+    "passed": 16,
+    "failed": 0,
+    "pass_rate": "100.0%"
+  },
+  "details": [
+    {
+      "name": "学习统计",
+      "result": "通过",
+      "message": "统计计算正确"
+    },
+    {
+      "name": "成就系统",
+      "result": "通过",
+      "message": "成就计算正确"
+    },
+    {
+      "name": "学习目标",
+      "result": "通过",
+      "message": "目标进度计算正确"
+    },
+    {
+      "name": "导出格式",
+      "result": "通过",
+      "message": "格式支持正确"
+    },
+    {
+      "name": "导入格式",
+      "result": "通过",
+      "message": "格式支持正确"
+    },
+    {
+      "name": "导出选项",
+      "result": "通过",
+      "message": "选项配置正确"
+    },
+    {
+      "name": "数据结构",
+      "result": "通过",
+      "message": "数据结构正确"
+    },
+    {
+      "name": "快捷键动作",
+      "result": "通过",
+      "message": "动作定义正确"
+    },
+    {
+      "name": "键组合",
+      "result": "通过",
+      "message": "组合显示正确"
+    },
+    {
+      "name": "冲突检查",
+      "result": "通过",
+      "message": "冲突检测正确"
+    },
+    {
+      "name": "快捷键分类",
+      "result": "通过",
+      "message": "分类正确"
+    },
+    {
+      "name": "术语分类",
+      "result": "通过",
+      "message": "分类正确"
+    },
+    {
+      "name": "术语难度",
+      "result": "通过",
+      "message": "难度级别正确"
+    },
+    {
+      "name": "术语搜索",
+      "result": "通过",
+      "message": "搜索功能正常"
+    },
+    {
+      "name": "术语统计",
+      "result": "通过",
+      "message": "统计计算正确"
+    },
+    {
+      "name": "默认术语",
+      "result": "通过",
+      "message": "默认术语正确"
+    }
+  ]
+}
