@@ -5,6 +5,7 @@ AcademicHelper UI 和端到端测试脚本
 """
 
 import json
+import os
 import time
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional, Callable
@@ -606,11 +607,11 @@ def main():
     print(f"总耗时: {summary['total_duration']}")
     print("="*60)
     
-    # 保存报告
-    report_file = "/Users/liuyanjun/Documents/trae_projects/academic-assistant-app/UI_TEST_REPORT.json"
+    # 保存报告 - 使用相对路径，兼容 GitHub Actions
+    report_file = os.path.join(os.path.dirname(__file__), "UI_TEST_REPORT.json")
     with open(report_file, 'w', encoding='utf-8') as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
-    
+
     print(f"\n📄 详细报告已保存: {report_file}")
     
     # 返回结果
