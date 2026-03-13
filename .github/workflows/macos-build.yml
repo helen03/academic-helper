@@ -38,6 +38,12 @@ jobs:
         python3 test_ui_workflows.py
       continue-on-error: false
     
+    - name: Run New Features Tests
+      run: |
+        echo "🚀 Running New Features Tests..."
+        python3 test_new_features.py
+      continue-on-error: false
+    
     - name: Upload Test Reports
       uses: actions/upload-artifact@v4
       if: always()
@@ -45,6 +51,7 @@ jobs:
         name: python-test-reports
         path: |
           UI_TEST_REPORT.json
+          NEW_FEATURES_TEST_REPORT.json
           TEST_COVERAGE_REPORT.md
 
   # ========== Swift 构建（macOS）==========

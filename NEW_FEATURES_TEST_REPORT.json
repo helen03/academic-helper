@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-03-13T12:48:41.413095",
+  "summary": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "pass_rate": "100.0%"
+  },
+  "details": [
+    {
+      "name": "内存缓存",
+      "result": "通过",
+      "message": "缓存机制工作正常"
+    },
+    {
+      "name": "有道签名",
+      "result": "通过",
+      "message": "签名生成正确"
+    },
+    {
+      "name": "翻译功能",
+      "result": "通过",
+      "message": "翻译映射正确"
+    },
+    {
+      "name": "缓存过期",
+      "result": "通过",
+      "message": "过期检测正确"
+    },
+    {
+      "name": "PDF搜索",
+      "result": "通过",
+      "message": "找到 2 个匹配"
+    },
+    {
+      "name": "表达识别",
+      "result": "通过",
+      "message": "识别 4 个表达"
+    },
+    {
+      "name": "DOI提取",
+      "result": "通过",
+      "message": "DOI 提取正确"
+    },
+    {
+      "name": "摘要提取",
+      "result": "通过",
+      "message": "摘要提取成功"
+    },
+    {
+      "name": "复习时间计算",
+      "result": "通过",
+      "message": "时间计算正确"
+    },
+    {
+      "name": "每日提醒",
+      "result": "通过",
+      "message": "时间设置正确"
+    },
+    {
+      "name": "通知内容",
+      "result": "通过",
+      "message": "内容生成正确"
+    },
+    {
+      "name": "通知类别",
+      "result": "通过",
+      "message": "类别注册正确"
+    }
+  ]
+}
