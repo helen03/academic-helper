@@ -1,5 +1,7 @@
 # AcademicHelper
 
+[![macOS Build & Test](https://github.com/helen03/academic-helper/actions/workflows/macos-build.yml/badge.svg)](https://github.com/helen03/academic-helper/actions/workflows/macos-build.yml)
+
 一款专为 macOS 设计的学术辅助应用，帮助研究人员和学生更高效地进行文献阅读、词汇学习和学术写作。
 
 ## 功能特性
